@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.2.1" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <int>8</int>
+   <object class="todo.Task">
+    <void property="description">
+     <string>broooo</string>
+    </void>
+    <void property="id">
+     <int>8</int>
+    </void>
+    <void property="priority">
+     <string>Medium</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>1</int>
+   <object class="todo.Task">
+    <void property="description">
+     <string>taak 4</string>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="priority">
+     <string>High</string>
+    </void>
+    <void property="progress">
+     <int>19</int>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>5</int>
+   <object class="todo.Task">
+    <void property="description">
+     <string>taak 5</string>
+    </void>
+    <void property="id">
+     <int>5</int>
+    </void>
+    <void property="priority">
+     <string>Medium</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>6</int>
+   <object class="todo.Task">
+    <void property="description">
+     <string>test2</string>
+    </void>
+    <void property="id">
+     <int>6</int>
+    </void>
+    <void property="priority">
+     <string>Medium</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>7</int>
+   <object class="todo.Task">
+    <void property="description">
+     <string>hello</string>
+    </void>
+    <void property="id">
+     <int>7</int>
+    </void>
+    <void property="priority">
+     <string>Low</string>
+    </void>
+    <void property="progress">
+     <int>50</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
