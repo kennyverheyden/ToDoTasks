@@ -55,7 +55,7 @@ public class Home extends Application{
 
 		HashMap<Integer, Task> tasksMap = new HashMap<Integer, Task>();
 		try {
-			in = new FileInputStream("tasks.xml");
+			in = new FileInputStream("./tasks.xml");
 			XMLDecoder decoder = new XMLDecoder(in);
 			tasksMap  = (HashMap<Integer, Task>) decoder.readObject();
 			decoder.close();
