@@ -113,6 +113,10 @@ public class Controller {
 			task.setDescription(currentTask.getDescription());
 			task.setPriority(currentTask.getPriority());
 			task.setProgress(currentTask.getProgress());
+			if(this.completedCheckBox.isSelected())
+			{
+				task.setProgress(100);
+			}
 		}
 		emptyField();
 	}
